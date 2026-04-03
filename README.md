@@ -20,7 +20,7 @@ Every constant and mechanism in this system is derived. Nothing is a magic numbe
 
 **Base constants:**
 - `pi = 3.141592653589793`
-- `effective_boundary = 2.078` — sole fixed geometric invariant
+- `effective_boundary = 2.078` — derived, arc-sphere match value
 - `asymmetric_delta = (2π/3) - 2.078 ≈ 0.01639510239` — base frame-rate, source of the arrow of time
 - `deviation = π - 2.078 ≈ 1.0636` — primary asymmetry
 - `golden_ratio = (1 + √5) / 2`
