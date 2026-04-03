@@ -1,0 +1,180 @@
+GeometricClarityLab - Interactive Test Runner (27-Symbol Lattice + Memory)
+==========================================================================================
+Clarity Ratio: {'current_ratio': 0.0, 'history_length': 0}
+Invariants: {'pi': 3.141592653589793, 'asymmetric_delta': 0.01639510239, 'golden_ratio': 1.618034, 'dual_13_range': 'A=+1..M=+13, N=-1..Z=-13, 0=dynamic'}
+Safeguards: {'reversal_count': 0, 'max_local_clarity': 0.0}
+Radial Web: {'total_displacers': 0, 'next_id': 0, 'global_clarity': 0.0, 'last_tick_age': 0.94, 'mode': '27-symbol_lattice'}
+Bipolar Lattice: {'total_waypoints': 53, 'active_strings': 52, 'core_id': None, 'core_score': 0.0, 'global_clarity': 0.0, 'golden_zone_tension': 0.0, 'ring_net_phase': 2.800048, 'ring_spin_signal': 0.0, 'geo_tick_count': 0, 'field_stress': 0.5, 'fold_negotiation_signal': 0.202, 'transport_total': 0.0, 'zero_braking': True, 'mode': 'bipolar_18_8_27_52_spin_d13'}
+Ouroboros Engine: {'truth_library_size': 9, 'generative_threshold': 0.38, 'feedback_fraction': 0.08, 'prune_threshold': 0.010636, 'deviation': 1.063593, 'frame_delta': 0.0163951023932}
+
+Options:
+ 1 - Box Scaling Test
+ 2 - Full Pipeline Test (default prompt)
+ 3 - Full Pipeline Test with custom prompt
+ 4 - Raw Symbol Test (no pocket insertion)
+ q - Quit
+
+Choose [1/2/3/4/q]: 1
+
+[1] Box Scaling Test
+ n= 16 → Box:  2× 2 | Triangles:   2 | Clarity: 2.6000
+ n= 32 → Box:  2× 2 | Triangles:   2 | Clarity: 2.6000
+ n= 64 → Box:  5× 5 | Triangles:  12 | Clarity: 1.3946
+ n=128 → Box: 10× 9 | Triangles:  44 | Clarity: 1.2233
+ n=256 → Box: 10× 9 | Triangles:  44 | Clarity: 1.2233
+
+Options:
+ 1 - Box Scaling Test
+ 2 - Full Pipeline Test (default prompt)
+ 3 - Full Pipeline Test with custom prompt
+ 4 - Raw Symbol Test (no pocket insertion)
+ q - Quit
+
+Choose [1/2/3/4/q]: 2
+
+[2] Full Pipeline Test - Living Radial Web + 27-Symbol Memory
+Prompt: Clara loves to paint watercolours. What does Clara love to do?
+Box: 7×6 | Triangles: 20
+
+--- Generated Answer (Convergence-Driven) ---
+Strong geometric boundary detected (pocket confidence 0.43). Field has not yet resolved content from geometry alone.
+
+Pipeline Metrics (Living Web + 27-Symbol Memory):
+ Clarity Score     : 1.0769  (trend: stable_or_decreasing)
+ Persistence       : 0.3389
+ Consensus         : 0.3517
+ Radial Convergence: 2.1282  (2 displacers)
+ Memory Recall     : Success
+ Safeguards        : Clear
+ Elapsed           : 0.534s
+ Bipolar Core      : None (score 0.0000, strings 52)
+ Geo Ticks         : 1
+ Mode              : direct
+ Exhaust Signature : [0.200 0.223 0.283 0.119 0.174]
+ Diagonal Structure: complexity=1249.4167 dispersed=10/10
+
+Options:
+ 1 - Box Scaling Test
+ 2 - Full Pipeline Test (default prompt)
+ 3 - Full Pipeline Test with custom prompt
+ 4 - Raw Symbol Test (no pocket insertion)
+ q - Quit
+
+Choose [1/2/3/4/q]: 3
+Enter prompt: ajsdfgbjkbjk adikfjug kadfgn k. adjfdys bjadfbg jka?
+
+[2] Full Pipeline Test - Living Radial Web + 27-Symbol Memory
+Prompt: ajsdfgbjkbjk adikfjug kadfgn k. adjfdys bjadfbg jka?
+Box: 6×6 | Triangles: 18
+
+--- Generated Answer (Convergence-Driven) ---
+Strong geometric boundary detected (pocket confidence 0.95). Field has not yet resolved content from geometry alone.
+
+Pipeline Metrics (Living Web + 27-Symbol Memory):
+ Clarity Score     : 1.0000  (trend: stable_or_decreasing)
+ Persistence       : 0.3192
+ Consensus         : -0.6509
+ Radial Convergence: 2.1495  (2 displacers)
+ Memory Recall     : Success
+ Safeguards        : Clear
+ Elapsed           : 0.008s
+ Bipolar Core      : 25 (score 0.1593, strings 52)
+ Geo Ticks         : 1
+ Mode              : direct
+ Exhaust Signature : [0.176 0.236 0.213 0.228 0.147]
+ Nearest Prior     : dist=0.1351 core=None "Clara loves to paint watercolours. What does Clara love to d"
+ Diagonal Structure: complexity=1339.3375 dispersed=10/10
+ Nearest Structure : sim=0.7912 "Clara loves to paint watercolours. What does Clara love to d"
+
+Options:
+ 1 - Box Scaling Test
+ 2 - Full Pipeline Test (default prompt)
+ 3 - Full Pipeline Test with custom prompt
+ 4 - Raw Symbol Test (no pocket insertion)
+ q - Quit
+
+Choose [1/2/3/4/q]: 4
+Enter raw symbol sequence: aaj gyajyg ayjaa ajyagyj agaku kahu kakuaaaa akhuakak ak a aka
+
+[4] Raw Symbol Test
+Input: 'aaj gyajyg ayjaa ajyagyj agaku kahu kakuaaaa akhuakak ak a aka'
+Box: 8×8 | Triangles: 32 | Symbols: 62 | Stream: ['A', 'A', 'P', '0', 'S', 'X', 'A', 'P', 'X', 'S', '0', 'A', 'X', 'P', 'A', 'A']...
+
+--- Raw Symbol Field Readings ---
+ Persistence       : 1.0000
+ Consensus         : -0.7272
+ Clarity Score     : 1.0323
+ Bipolar Core      : 18 (score 0.1709)
+ Geo Ticks         : 2
+ Ring Spin Signal  : 0.0000
+ Field Stress      : 0.5692
+ Fold Neg Signal   : 0.2475
+ Zero Braking      : False
+ Mode              : generative
+ Elapsed           : 0.010s
+ Exhaust Signature : [0.196 0.213 0.229 0.174 0.188]
+ Nearest Prior     : dist=0.0753 "ajsdfgbjkbjk adikfjug kadfgn k. adjfdys bjadfbg jka?"
+ Diagonal Structure: complexity=1304.1644 dispersed=10/10
+ Nearest Structure : sim=0.9998 "ajsdfgbjkbjk adikfjug kadfgn k. adjfdys bjadfbg jka?"
+
+Options:
+ 1 - Box Scaling Test
+ 2 - Full Pipeline Test (default prompt)
+ 3 - Full Pipeline Test with custom prompt
+ 4 - Raw Symbol Test (no pocket insertion)
+ q - Quit
+
+Choose [1/2/3/4/q]: 4
+Enter raw symbol sequence: kjljwlrhwh hlwrjl hwkl rlw wr wkljh kwlwlk jrwhkw hrw whw
+
+[4] Raw Symbol Test
+Input: 'kjljwlrhwh hlwrjl hwkl rlw wr wkljh kwlwlk jrwhkw hrw whw'
+Box: 8×8 | Triangles: 30 | Symbols: 57 | Stream: ['Z', 'P', 'I', 'P', 'W', 'I', 'G', 'H', 'W', 'H', '0', 'H', 'I', 'W', 'G', 'P']...
+
+--- Raw Symbol Field Readings ---
+ Persistence       : 1.0000
+ Consensus         : -0.2644
+ Clarity Score     : 1.1228
+ Bipolar Core      : 18 (score 0.1800)
+ Geo Ticks         : 2
+ Ring Spin Signal  : 0.0000
+ Field Stress      : 0.5639
+ Fold Neg Signal   : 0.2624
+ Zero Braking      : False
+ Mode              : generative
+ Elapsed           : 0.012s
+ Exhaust Signature : [0.196 0.213 0.225 0.179 0.187]
+ Nearest Prior     : dist=0.0063 "aaj gyajyg ayjaa ajyagyj agaku kahu kakuaaaa akhuakak ak a a"
+ Diagonal Structure: complexity=1199.9043 dispersed=10/10
+ Nearest Structure : sim=0.9943 "aaj gyajyg ayjaa ajyagyj agaku kahu kakuaaaa akhuakak ak a a"
+
+Options:
+ 1 - Box Scaling Test
+ 2 - Full Pipeline Test (default prompt)
+ 3 - Full Pipeline Test with custom prompt
+ 4 - Raw Symbol Test (no pocket insertion)
+ q - Quit
+
+Choose [1/2/3/4/q]: 4
+Enter raw symbol sequence: oieie e eiooe ioei  ieoei o io eio ajh hdjj hdfjkdjf kjk rlj jr jklr jl kjkjkw ljwkljklq lq kjq
+
+[4] Raw Symbol Test
+Input: 'oieie e eiooe ioei  ieoei o io eio ajh hdjj hdfjkdjf kjk rlj jr jklr jl kjkjkw ljwkljklq lq kjq'
+Box: 10×10 | Triangles: 48 | Symbols: 95 | Stream: ['Q', 'K', 'F', 'K', 'F', '0', 'F', '0', 'F', 'K', 'Q', 'Q', 'F', '0', 'K', 'Q']...
+
+--- Raw Symbol Field Readings ---
+ Persistence       : 0.9844
+ Consensus         : -0.7395
+ Clarity Score     : 1.0526
+ Bipolar Core      : 18 (score 0.1834)
+ Geo Ticks         : 2
+ Ring Spin Signal  : 0.0000
+ Field Stress      : 0.5622
+ Fold Neg Signal   : 0.2771
+ Zero Braking      : False
+ Mode              : generative
+ Elapsed           : 0.009s
+ Exhaust Signature : [0.196 0.213 0.223 0.181 0.186]
+ Nearest Prior     : dist=0.0031 "kjljwlrhwh hlwrjl hwkl rlw wr wkljh kwlwlk jrwhkw hrw whw"
+ Diagonal Structure: complexity=1288.7561 dispersed=10/10
+ Nearest Structure : sim=0.0360 "kjljwlrhwh hlwrjl hwkl rlw wr wkljh kwlwlk jrwhkw hrw whw"
